@@ -1,0 +1,13 @@
+.navbar{
+    width: 500px;
+    margin-top: 25px;
+    border-radius: 10px;
+   margin-left: 800px;
+  
+}
+.nav-link{
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+   margin-right: 20px;
+}
