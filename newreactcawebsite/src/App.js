@@ -1,6 +1,5 @@
 
 import './App.css';
-import MainContent from './COMPONENTS/MainContent';
 import Navbar from './COMPONENTS/Navbar';
 import Home from "./PAGES/Home";
 import Contact from "./PAGES/Contact";
@@ -15,8 +14,8 @@ function App() {
 
     <>
  <Navbar/><br/>
- <MainContent/>
- 
+
+
  <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
