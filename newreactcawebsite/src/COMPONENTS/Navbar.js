@@ -17,13 +17,13 @@ export default function Navbar() {
         < Link className="nav-link" to="/">Home</Link>
         </li>
         <li className="nav-item">
-        < Link className="nav-link" to="/About">Aboutus</Link>
+        < Link className="nav-link" to="/about">Aboutus</Link>
         </li>
         <li className="nav-item">
-          < Link className="nav-link" to="/Contact">Contact</Link>
+          < Link className="nav-link" to="/contact">Contact</Link>
         </li>
         <li className="nav-item">
-        < Link className="nav-link" to="/Activity">Activity</Link>
+        < Link className="nav-link" to="/activity">Activity</Link>
         </li>
        
       </ul>
