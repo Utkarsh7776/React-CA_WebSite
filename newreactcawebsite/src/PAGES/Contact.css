@@ -1,7 +1,8 @@
+#contactheading{
+    margin-top: 80px;
 
-    .con{
-        height: 100px;
-        width: 100px;
-        border: 2px black solid;
-        margin-top: 100px;
-    }
+text-align: center;
+}
+#formm{
+    border:2px solid black;
+}
