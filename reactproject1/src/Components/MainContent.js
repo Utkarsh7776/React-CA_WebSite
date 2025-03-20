@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './MainContent.css';
 export default function MainContent() {
   return (
     <div>
@@ -11,13 +11,13 @@ export default function MainContent() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="reactproject1\src\Images\beach-sea.jpg" class="d-block w-100" alt="..."/>
+      <img src={require("../Images/Chandankar-Academy-Admission-Banner-2.jpg")} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="img1" class="d-block w-100" alt="..."/>
+      <img src={require("../Images/Chandankar-Academy-Admission-Banner-2.jpg")} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="img1" class="d-block w-100" alt="..."/>
+      <img src={require("../Images/Chandankar-Academy-Admission-Banner-2.jpg")} class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -29,6 +29,41 @@ export default function MainContent() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<h2 className='d-flex justify-content-center mt-3'>Welcome To Chandankar Academy</h2>
+
+
+<div className='container-fluid'>
+
+  <div className='row'>
+  <div className='col-md-5' id='AAA'>
+  <img src={require("../Images/600x400.png")} alt='NO'id='kkk'/>
+</div>
+
+<div id='PPP' className='col-md-7'>
+<p> Chandankar Academy has 
+  started on 10th April 2015, with the vision of grooming 
+  students beyond traditional education. The institution is 
+  not just a coaching center but a motivational hub where students 
+  are inspired to develop a strong mindset for success. Our tagline,
+   “Inspiring Future, Strengthening Mind,” which reflects our belief 
+   that once students are motivated, they no longer need external 
+   guidance.<br/>
+
+ With a dedicated team working round the clock, we ensure that 
+ every student receives the best learning environment. The 
+ vision of the academy is to nurture excellence and create skilled
+  individuals who contribute to society.</p>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
     </div>
   )
 }
