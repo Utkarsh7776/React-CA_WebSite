@@ -32,31 +32,61 @@ export default function MainContent() {
 <h2 className='d-flex justify-content-center mt-3'>Welcome To Chandankar Academy</h2>
 
 
-<div className='container-fluid'>
+<div className='container-fluid mt-4'>
 
   <div className='row'>
-  <div className='col-md-5' id='AAA'>
+  <div className='col-md-4' id='AAA'>
   <img src={require("../Images/600x400.png")} alt='NO'id='kkk'/>
 </div>
 
-<div id='PPP' className='col-md-7'>
-<p> Chandankar Academy has 
+<div id='PPP' className='col-md-6'>
+<p> <strong>Chandankar Academy</strong> has 
   started on 10th April 2015, with the vision of grooming 
   students beyond traditional education. The institution is 
   not just a coaching center but a motivational hub where students 
   are inspired to develop a strong mindset for success. Our tagline,
    “Inspiring Future, Strengthening Mind,” which reflects our belief 
    that once students are motivated, they no longer need external 
-   guidance.<br/>
-
+   guidance.
+   <br/>
+   <br/>
  With a dedicated team working round the clock, we ensure that 
  every student receives the best learning environment. The 
  vision of the academy is to nurture excellence and create skilled
   individuals who contribute to society.</p>
+  <button className='btn btn-primary '>KNOW MORE</button>
+  <button className='btn btn-primary ms-4'>CONTACT US</button>
 </div>
+
   </div>
 </div>
 
+<div className='container-fluid explrcrs mt-4'>
+  <div className='row'>
+    <div className="col-sm-12">
+<h1 className='d-flex justify-content-center mt-4'>Explore Our Courses</h1>
+
+<div className='row'>
+<div id='IIIII'><img src={require("../Images/ExploreCRS1.jpg")}className='col-md-3 ' id='imgsz' /> 
+
+  <img src={require("../Images/ExploreCRS2.jpg")} className='col-md-3'id='imgsz'/> 
+
+  <img src={require("../Images/ExploreCRS3.jpg")} className='col-md-3'id='imgsz'/> 
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
 
 
 
